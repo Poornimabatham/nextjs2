@@ -75,7 +75,7 @@ export default function HomePage() {
         {tasks.map((task) => (
           <li key={task.id} className="mb-2">
             ✅ <strong>{task.title}</strong> — {task.description}{' '}
-            <span className="text-sm text-gray-400">
+            <span className="text-sm text-black-400">
               ({new Date(task.createdAt).toLocaleString()})
             </span>
           </li>
